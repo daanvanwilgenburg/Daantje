@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daan van Wilgenburg</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Navigation -->
+        <header>
+            <h2>Daan van Wilgenburg</h2>
+            <nav>
+                <a class="nav-item" href="#content">Over Mij</a>
+                <a class="nav-item" href="#content2">Hobbies</a>
+                <a class="nav-item" href="#form">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <section class="content md-top-gap">
+            <h3>What Does WWF Do?</h3>
+            <p class="text-center sm-top-gap">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vel iste optio natus fuga. Adipisci laudantium voluptatem,
+                animi beatae, obcaecati unde odio dicta repudiandae, odit aliquam minus. Accusantium, enim cum?
+            </p>
+        </section>
+
+        <!-- Sub Content -->
+        <section class="article-row xl-top-gap" id="content">
+            <article class="row-item">
+                <h4 class="text-center">Title 1</h4>
+                <hr>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit ex aliquid temporibus ut praesentium labore libero
+                    similique, saepe placeat nam sapiente laboriosam expedita architecto? Quia libero sapiente ducimus necessitatibus?
+                </p>
+            </article>
+            <section class=" row-item ">
+                <h4 class="text-center">Title 2</h4>
+                <img class="center-image" src="image/testimage.jpg" alt="Foto van kat">
+            </section>
+            <article class="row-item">
+                <h4 class="text-center">Title 3</h4>
+                <hr>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit ex aliquid temporibus ut praesentium labore libero
+                    similique, saepe placeat nam sapiente laboriosam expedita architecto? Quia libero sapiente ducimus necessitatibus?
+                </p>
+            </article>
+        </section>
+
+        <!-- Sub Content row 2 -->
+        <section class="article-row sm-top-gap" id="content2">
+            <article class="row-item">
+                <h4 class="text-center">Title 1</h4>
+                <hr>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit ex aliquid temporibus ut praesentium labore libero
+                    similique, saepe placeat nam sapiente laboriosam expedita architecto? Quia libero sapiente ducimus necessitatibus?
+                </p>
+            </article>
+            <section class=" row-item ">
+                <h4 class="text-center">Title 2</h4>
+                <img class="center-image" src="image/testimage.jpg" alt="Foto van kat">
+            </section>
+            <article class="row-item">
+                <h4 class="text-center">Title 3</h4>
+                <hr>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit ex aliquid temporibus ut praesentium labore libero
+                    similique, saepe placeat nam sapiente laboriosam expedita architecto? Quia libero sapiente ducimus necessitatibus?
+                </p>
+            </article>
+        </section>
+
+        <!-- Contact form -->
+        <section class="article-row md-top-gap" id="form">
+            <form action="" class="contact-form">
+                <h4 class="text-center">Contact form</h4>
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Email" class="form-item">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Name" class="form-item">
+                <hr>
+                <label for="gender">Gender</label>
+                <div>
+                    <input type="radio" name="gender" value="male" class="form-item inline">
+                    <span>Male</span>
+                </div>
+                <div>
+                    <input type="radio" name="gender" value="female" class="form-item inline">
+                    <span>Female</span>
+                </div>
+                <hr>
+                <label for="content">Your message:</label>
+                <textarea name="content" rows="4" placeholder="I would like to talk to you about this..." class="form-item"></textarea>
+                <hr>
+                <label for="urgency">Urgency</label>
+                <select name="urgency">
+                    <option value="1">Not important</option>
+                    <option value="2">Very important</option>
+                </select>
+                <input type="submit" value="Send" class="form-item">
+            </form>
+        </section>
+
+        <footer>
+            <p class="text-center">Daan's website</p>
+        </footer>
+    </div>
+</body>
+
+</html>

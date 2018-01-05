@@ -1,0 +1,118 @@
+/* Base element styling */
+    h2 {
+        font-size: 2em;
+        padding: .8em;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        padding: .8em 0 .8em 0;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 1.25em;
+        padding: .8em 0 .8em 0;
+        font-weight: bold;
+    }
+
+    p {
+        margin: .8em 0 .8em 0;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .md-top-gap {
+        margin-top: 150px;
+    }
+
+    .sm-top-gap {
+        margin-top: 75px;
+    }
+
+    .xl-top-gap {
+        margin-top: 400px;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+/* Main element of page */
+    .main {
+        background-color: #ccc;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+/* Navigation styling + header */
+    header {
+        display: flex;
+        padding: 0 10% 0 10%;
+        background-color: #ccc;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: -2px 0px 5px 0px #000;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        padding: 1em;
+    }
+
+/* Content related positioning */
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .article-row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .row-item {
+        padding: 2em;
+    }
+
+    .center-image {
+        width: 200px;
+        margin-top: .8em;
+    }
+
+/* Contact form styling */
+    .contact-form {
+       display: flex;
+       flex-direction: column;
+       width: 50%;
+    }
+
+    .form-item {
+        margin-top: .5em;
+        margin-bottom: .5em;
+        padding: .3em;
+        border: 0;
+    }
+
+/* Footer */
+    footer {
+        padding: 1em 0 .2em 0;
+    }
